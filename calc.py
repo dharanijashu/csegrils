@@ -12,7 +12,7 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero!")
     return a / b
 
-def calculator():
+def calculator(): #function definition
     while True:
         print("\nSimple Calculator")
         print("1. Add\n2. Subtract\n3. Multiply\n4. Divide\n5. Exit")
